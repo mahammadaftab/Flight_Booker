@@ -1,0 +1,22 @@
+{
+  "name": "flight-management-system",
+  "version": "1.0.0",
+  "description": "A full-stack flight booking system with React, Spring Boot, and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start-dev.js",
+    "start:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && mvn spring-boot:run",
+    "build": "cd frontend && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flight",
+    "booking",
+    "react",
+    "spring-boot",
+    "mongodb"
+  ],
+  "author": "Flight Management System Team",
+  "license": "MIT"
+}

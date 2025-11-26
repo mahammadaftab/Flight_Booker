@@ -1,0 +1,20 @@
+{
+  "name": "flight-management-system-backend",
+  "version": "1.0.0",
+  "description": "Backend for Flight Management System",
+  "main": "index.js",
+  "scripts": {
+    "start": "mvn spring-boot:run",
+    "build": "mvn clean package",
+    "test": "mvn test"
+  },
+  "keywords": [
+    "flight",
+    "management",
+    "system",
+    "spring-boot",
+    "mongodb"
+  ],
+  "author": "Flight Management System Team",
+  "license": "MIT"
+}

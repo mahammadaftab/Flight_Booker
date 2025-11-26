@@ -1,0 +1,37 @@
+# Application Configuration Files with Secrets
+application.properties
+src/main/resources/application.properties
+src/main/resources/application-*.properties
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Maven build files
+target/
+*.jar
+*.war
+*.ear
+
+# Gradle files
+.gradle/
+build/
+
+# Java compiled files
+*.class
+*.classpath
+.project
+.settings/
+
+# Log files
+*.log
+logs/
